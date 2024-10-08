@@ -1,0 +1,1980 @@
+*{box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;}
+
+body #first{
+    text-align: center;
+    line-height: 2.5rem;
+    background-image: url(/imgs/bg-t.png);
+    color: rgb(246, 246, 246);
+    height: 2.5rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3.1rem;
+    line-height: 4rem;
+    color: #222;
+}
+
+h2 {
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    color: #222;
+}
+
+h4
+{
+    font-size: 1.3rem;
+    line-height: 4rem;
+    color: #222;
+}
+
+
+h6 {
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 4rem;
+    color: #222;
+}
+
+/* p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 64px;
+    color: #aba6a6;
+    margin: 0px 0 0px 0;
+} */
+
+.section-p1 {
+    padding: 2.5rem 5rem;
+}
+
+.section-m1 {
+    margin: 2.4rem 0;
+}
+
+body {
+   width: 100%;
+}
+
+/* header start*/
+
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 31.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1.8rem;
+   
+   
+}
+
+#navbar 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navcart
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li
+{
+    list-style: none;
+    padding: 0 1rem;
+    position: relative;
+    
+}
+
+#navcart li
+{
+    list-style: none;
+    padding: 0 1rem;
+    position: relative;
+
+}
+
+#header .logo
+{
+   margin-left: 5rem;
+   margin-right: 7.5rem;
+   font-size: 1.5rem;
+   font-weight: 600;
+   text-decoration: none;
+   color: black;
+   transition: .3s ease;
+ 
+  
+
+}
+
+#navbar li a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(85, 80, 80);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    transition: .3s ease;
+
+
+}
+
+#navcart li a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(85, 80, 80);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    transition: .3s ease;
+   
+}
+ 
+#navbar li a:hover,
+#navbar li a.active
+{ 
+color: crimson;
+
+
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content: "";
+    width: 30%;
+    height: .1rem;
+    background-color:  crimson;
+    position: absolute;
+    bottom: -.25rem;
+    left: 1.3rem;
+    
+    
+}
+#navcart li a:hover,
+#navcart li a.impact
+{ 
+color: crimson;
+
+}
+
+#navcart li a.impact::after,
+#navcart li a:hover::after
+{
+    content: "";
+    width: 30%;
+    height: .12rem;
+    background-color: crimson;
+    position : absolute;
+    bottom: -.25rem;
+    left: 1.3rem;
+}
+/* header close*/
+
+/*poster start */
+
+#poster
+{
+ display: flex;
+ text-align: center;
+ line-height: 26.8rem;
+ margin-top:3.1rem; 
+margin-left: .9rem; 
+overflow: hidden;
+justify-content: center;
+align-items: center;
+
+ 
+}
+
+
+#nailposter
+{
+ height: 26.8rem;
+ width: 73.4rem;
+ background-image: url(/imgs/nail.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ position: relative;
+
+ 
+}
+
+#nailposter:hover
+{
+    scale: 1.02;
+    transition: .5s ease;
+    filter: brightness(1);
+
+   
+}
+
+#gift:hover
+{
+    scale: 1.02;
+    transition: .5s ease;
+    filter: brightness(1);
+}
+
+
+#gift
+{
+ height: 26.8rem;
+ width: 73.4rem;
+ background-image: url(/imgs/gift.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+}
+ #nailposter h1 
+ {
+
+    color: aliceblue;
+    font-size:5rem ;
+    padding-top: 8.1rem;
+    padding-right: 37.5rem;
+
+
+ }
+
+ #nailposter p
+ {
+
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: -10.6rem;
+    padding-right: 40.6rem;
+
+
+ }
+
+#poster #gift h3
+{
+    font-size:1.5rem;
+    font-family:  'Jost', sans-serif;
+    font-weight: 600;
+    padding-right: 31.2rem;
+    margin-top: -3.1rem;
+}
+
+#gift p
+{
+
+   color: rgb(18, 17, 17);
+   font-size: 1rem;
+   margin-top: -22.2rem;
+   padding-right: 43.6rem;
+
+
+}
+
+/* poster end */
+
+/* CATEGORIES start */
+
+#CATEGORIES
+{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+#CATEGORIES p
+{
+    font-size: .9rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 400;
+    color: #4d4747;
+    margin: 1.8rem;
+    padding-bottom: 1.2rem;
+}
+
+#CATEGORIES h3
+{
+    font-size: 1.6rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 600;
+    color: #121111;
+    margin-top: -2.8rem;
+}
+
+#CATEGORIES h6
+{
+    font-size: 1.2rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 300;
+    color: #4d4747;
+    /* margin-top: px; */
+}
+
+/* <!-- CATEGORIES end --> */
+
+
+/* <!-- manicure tools start--> */
+ 
+#container
+{
+    width: 62.5rem;
+    margin: auto;
+    padding: 1.2rem 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+ .service
+ {
+    /* flex-basis: 22; */
+    margin: .6rem 1rem;
+    box-shadow: 0rem 0rem 1rem .06rem rgb(191, 192, 195);
+    padding: .6rem 0;
+   
+    border-radius: 1.5rem;
+   
+ }
+  
+
+ #manicure #container .service h3
+ {
+    padding: .6rem 0;
+    font-size: 1.3rem;
+    font-weight: 550;
+    font-family: 'Jost', sans-serif;
+    color: rgb(57, 116, 116);
+ }
+
+
+
+
+
+
+
+ #manicure #container .service p
+ {
+font-size: .7rem;
+font-weight: 100;
+justify-content: space-around;
+font-family: sans-serif;
+color: #8c8080;
+
+padding: .6rem .6rem;
+
+
+
+ }
+
+ #manicure #container .service img:hover{
+    translate: 0 -1.5rem;
+    transition: .5s ease;
+ }
+
+
+/* <!-- manicure tools end--> */
+
+/* <!-- supercolor start --> */
+
+
+#supercolor
+{
+    display: flex;
+  justify-content: center;
+  margin-top: 9.3rem;
+
+}
+
+#supercolor #head
+{
+    display: flex;
+    width: 35.6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#supercolor #head .purple
+{
+    display: flex;
+    flex-basis: 23;
+    width: 35.6rem;
+    height: 10.8rem;
+}
+
+#supercolor #head .purple img
+{
+    height: 6.2rem;
+    width: 6.2rem;
+}
+
+#supercolor #head .purple p
+{
+    padding-top: 3.7rem;
+   
+}
+
+#supercolor #head .purple img:hover
+{
+    translate: 0 -0.6rem;
+    transition: .5s ease;
+}
+
+#supercolor #head #new
+{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #222;
+    font-family:'Jost', sans-serif ;
+}
+#brand marquee img{
+margin-right: 20px;
+}
+
+
+#supercolor #head #sn 
+{
+    text-align: center;
+    height: 1.8rem;
+    width: 8.1rem;
+    background-color: rgb(232, 232, 232);
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding-top: .12rem;
+    border-radius: .6rem;
+    text-decoration: none;
+   color: white;
+    font-family: 'Jost', sans-serif;
+}
+#supercolor #head #sn a
+{
+    text-decoration: none;
+}
+
+#supercolor #head #sn:hover
+{
+    background-color:rgb(53, 240, 143) ;
+    color: black;
+    transition: .3s ease;
+}
+
+/* <!-- supercolor end --> */
+
+
+/* <!-- sadgirl start --> */
+
+#clean
+{
+    display: flex;
+    margin-top: 11.2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#clean #sad 
+{    
+    height: 25rem;
+    width: 17.8rem;
+    /* background-color: aqua; */
+}
+
+#clean #sad img
+{
+    height: 20rem;
+    width: 17.8rem;
+}
+
+#clean #brownhair
+{
+    padding-top: 6.2rem;
+}
+
+#clean #text
+{
+    width: 38.8rem;
+    height: 29.1rem;
+    justify-content: space-around;
+}
+
+#clean #text h2
+{
+    padding-top: 1.2rem;
+}
+
+#clean #text p{
+    margin-top: 3.7rem;
+    font-size: 1rem;
+    justify-content: space-around;
+    color: #8c8080;
+    font-weight: 400;}
+    
+    #clean #text a
+    {
+    
+  
+   
+    background-color: rgb(64, 188, 188);
+    font-size: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    border-radius: .5rem;
+   
+
+
+   
+    }
+
+    #clean #text a
+    {
+        height: 2.5rem;
+        width: 3.7rem;
+        background-color: brown;
+        padding: .3rem;
+        margin: 1.2rem; 
+     
+   
+    }
+
+    #clean #text button
+    {
+        background-color: #2183a2;
+        color: white;
+        outline: none;
+        border: none;
+        padding: .3rem;
+        width: 12.5rem;
+        height: 3.1rem;
+        margin-top: 3.1rem;
+    }
+
+    /* /* <!-- sadgirl end */
+
+
+    /* <!-- Best Sellers --> */
+
+    #bestsellers div
+    {
+        height: 2.2rem;
+        width: 75rem;
+        /* background-color: yellow; */
+        font-size: 2.8rem;
+        font-weight: 500;
+        font-family: 'Jost', sans-serif;
+        margin: auto;
+        text-align: center;
+        line-height: 2.2rem;
+        margin-top: 3.1rem;
+        background-repeat: no-repeat;
+
+    }
+    
+     /* .product1  a img 
+    {
+        height: 338px;
+        width: 270px;
+       
+
+      
+
+    }
+
+    .product1
+    {
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        /* text-align: center;
+        line-height: 338px;
+    }
+
+
+
+
+    .product2 a img
+    {
+        height: 338px;
+        width: 270px;
+      
+
+    }  */
+    /* .product2 a img
+    {
+        margin-top: 400px;
+    }
+    .product1 a
+    {
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .product1  h2
+    {
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 340px;
+        margin-right: 150px;
+        margin-left: -160px;
+        color: #222;
+        
+    }
+     
+    .product1 p
+    {
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 450px;
+        margin-right: 160px;
+        margin-left: -220px;
+        background-color: crimson;
+        height: 45px;
+        width: 180px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        
+    } */
+
+    /* .product2
+    {
+        margin-top: 80px;
+    } */ 
+
+
+    .gallery .content h3
+    {
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 0;
+        padding-top: .6rem;
+    }
+
+    
+    .gallery .content img
+    {
+        height: 20.6rem;
+        width: 18.7rem;
+        text-align: center;
+        margin: 0 auto;
+        display: block ;
+      
+    }
+
+    .gallery
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3.1rem 0rem;
+       
+        
+        
+
+    }
+
+  
+    .content
+    {
+        width: 25%;
+        margin: 1rem;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        border-radius: 1.2rem;
+        cursor: pointer;
+        padding-top: .6rem;
+        /* box-shadow: 0 14px 28px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .22); */
+        transition: .4s;
+        background: #ffffff;
+        
+    }
+
+    .content:hover{
+        /* box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+        0 3px 6px rgba(0, 0, 0, .23); */
+        transform: translate(0rem, -.5rem);
+    }
+
+    .gallery .content p
+    {   
+        font-size: 1.1rem;
+        text-align: center;
+        color: #b2bec3;
+        padding-top: 0 .5rem;
+        font-family: sans-serif
+        
+    }
+    
+    .gallery .content h3
+    {
+        font-size: 1.6rem;
+        text-align: center;
+        color: #222f3e;
+        font-family: sans-serif;
+        margin: 0;
+    }
+    
+    .gallery .content ul
+    {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+    }
+    
+    .gallery .content ul li
+    {
+        padding-top: .3rem;
+    }
+    
+    .gallery .content ul li i 
+    {
+        font-size: 1.6rem;
+        transition: .4s;
+        margin: .18rem;
+        color: #ff9f43;
+    }
+    
+    .gallery .content ul li i:hover{
+        transform: scale(1.3);
+        transition: .6s ;
+    }
+    
+    .gallery .content .buy1
+    {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #fff;
+        width: 50%;
+        padding: .18rem;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        margin-top: .3rem;
+        border-radius: 1.2rem;
+     
+    }
+
+    .buy1
+    {
+        background: #2183a2;
+    }
+     
+/* 
+    Bestseller end */
+
+
+
+    /* <!-- brand start--> */
+
+    #brand 
+    {
+        display: flex;
+       justify-content: center;
+       margin-top: 43.7rem;
+       justify-content: space-evenly;
+    }
+    
+ /* <!-- brand end--> */
+
+
+ /* <!-- footer start --> */
+
+ /* #footer
+ {
+    background-image: url(/imgs/footer_bg1.jpg);
+    height: 31.25rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    line-height: 31.25rem;
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+ #footer input{
+   height: 3.7rem;
+   width: 37.5rem;
+   justify-content: center;
+   color: #e0e0e0;
+   background-color: #72716f;
+   border-radius: 1.8rem;
+   border: none;
+   outline: none;
+   font-size: 1.5rem;
+   font-weight: 600;
+   
+ }
+
+ #footer button{
+    height: 3.7rem;
+    width:7.5rem;
+    background-color: #2183a2;
+    padding: 1rem;
+    border-radius: 1.8rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: #e0e0e0;
+    padding-bottom: -0.3rem;
+    margin-left: 1.3rem;
+    margin-top: 1.5rem;
+ } */
+
+
+ 
+ /* <!-- footer start --> */
+ footer
+ {
+    background-image: url(/imgs/footer_bg1.jpg);
+    width: 100%;
+    height:21.2rem;
+    margin-top: 5rem;
+ }
+
+ #subscribe
+ {
+    display: grid;
+    
+    margin-top: 9.3rem;
+    text-align: center;
+ }
+
+ #subscribe h2
+ {
+  font-size: 2.5rem;
+  font-weight: 600;
+ }
+
+ #subscribe p
+ {
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #7a7a7a;
+ }
+
+footer #support 
+ {  
+  display: grid;
+  grid-template-columns: 15.6rem 15.6rem 15.6rem 15.6rem;
+  justify-content: center;
+ text-align: center;
+ padding: 6.8rem 0 0 0 ;
+ }
+
+ footer #support .company h6
+ {
+    color: #e3e7e7;
+    font-size: .8rem;
+    font-weight: 600;
+    text-align: start;
+ }
+
+ footer #support .company li
+ {
+    list-style: none;
+    color: #bcc4c4;
+    padding: .1rem .31rem;
+    font-size: .7rem;
+    text-align: start;
+ }
+
+ footer #support .company .end
+ {
+    margin-top: .6rem;
+ }
+
+ /* <!-- footer end --> */
+
+
+ #last
+ {
+    height: 6.2rem;
+    width: 100%;
+    background-image: url(/imgs/footer_bg1.jpg);
+ }
+ 
+ #last img
+ {
+    margin: 3.1rem 0 0 96.8rem;
+ }
+
+
+
+
+ @media(max-width:1414px){
+
+
+    #header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 0px 5.2rem; */
+        text-align: center;
+        justify-content: center;
+        margin-top: 1.8rem;
+        margin: 0 -5rem;
+       
+       
+    }
+
+
+
+    #nailposter
+{
+ height: 26.8rem;
+ width: 73.4rem;
+ background-image: url(/imgs/nail.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ margin-left: 8rem;
+
+ 
+}
+
+
+
+#gift
+{
+ height: 26.8rem;
+ width: 73.4rem;
+ background-image: url(/imgs/gift.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ margin-left:  -6rem;
+}
+ #nailposter h1 
+ {
+
+    color: aliceblue;
+    font-size:5rem ;
+    padding-top: 8.1rem;
+   margin-left: 15rem;
+   margin-top: 2rem;
+
+
+ }
+
+ #nailposter p
+ {
+
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: -11rem;
+     margin-left: 15rem;
+
+ }
+
+#poster #gift h3
+{
+    font-size:1.5rem;
+    font-family:  'Jost', sans-serif;
+    font-weight: 600;
+    padding-right: 20.2rem;
+    margin-top: -1.1rem;
+}
+
+#gift p
+{
+
+   color: rgb(18, 17, 17);
+   font-size: 1rem;
+   margin-top: -23.2rem;
+     margin-left: 6rem;
+
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+ }
+
+
+ @media(max-width:1250px){
+
+    #navcart 
+    {
+        /* list-style: none;
+        padding: 0 1rem;
+        position: relative; */
+        /* margin-left: 1rem; */
+    
+    }
+
+
+    #poster
+{
+ display: flex;
+ text-align: center;
+ flex-flow: column;
+ line-height: 26.8rem;
+ margin-top:3.1rem; 
+margin-left: .9rem; 
+overflow: hidden;
+justify-content:space-between;
+
+
+ 
+}
+
+#nailposter
+{
+ height: 26.8rem;
+ width: 100%;
+ background-image: url(/imgs/nail.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ margin-left: 5rem;
+
+ 
+}
+
+#gift
+{
+ height: 26.8rem;
+ width: 100%;
+ background-image: url(/imgs/gift.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ margin-top: 2rem;
+
+ margin-left: 5rem;
+}
+
+
+#nailposter h1 
+ {
+
+    color: aliceblue;
+    font-size:5rem ;
+    padding-top: 8.1rem;
+   margin-left: -10rem;
+   margin-top: 2rem;
+
+
+ }
+
+ #nailposter p
+ {
+
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: -10.6rem;
+    margin-left: -10rem;
+
+
+ }
+
+#poster #gift h3
+{
+    font-size:1.5rem;
+    font-family:  'Jost', sans-serif;
+    font-weight: 600;
+    margin-left: -10rem;
+    margin-top: -1.1rem;
+}
+
+#gift p
+{
+
+   color: rgb(18, 17, 17);
+   font-size: 1rem;
+   margin-top: -23.2rem;
+   margin-left: -10rem
+
+
+}
+
+
+
+#clean
+{
+    display: flex;
+    margin-top: 11.2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#clean #sad 
+{    
+    height: 25rem;
+    width: 17.8rem;
+    /* background-color: aqua; */
+}
+
+#clean #sad img
+{
+    height: 20rem;
+    width: 17.8rem;
+    padding-right: 2rem;
+}
+
+#clean #brownhair img
+{
+    padding-top: 6.2rem;
+    padding-left: 2rem;
+}
+
+#clean #text
+{
+    width: 38.8rem;
+    height: 29.1rem;
+    justify-content: space-around;
+}
+
+#clean #text h2
+{
+    padding-top: 1.2rem;
+}
+
+#clean #text p{
+    margin-top: 3.7rem;
+    font-size: 1rem;
+    justify-content: space-around;
+    color: #8c8080;
+    font-weight: 400;
+    padding: 0 1rem;
+    
+}
+    
+    #clean #text a
+    {
+    
+  
+   
+    background-color: rgb(64, 188, 188);
+    font-size: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    border-radius: .5rem;
+   
+
+
+   
+    }
+
+    #clean #text a
+    {
+        height: 2.5rem;
+        width: 3.7rem;
+        background-color: brown;
+        padding: .3rem;
+        margin: 1.2rem; 
+     
+   
+    }
+
+    #clean #text button
+    {
+        background-color: #2183a2;
+        color: white;
+        outline: none;
+        border: none;
+        padding: .3rem;
+        width: 12.5rem;
+        height: 3.1rem;
+        margin-top: 3.1rem;
+    }
+
+    
+ #last
+ {
+    height: 6.2rem;
+    width: 100%;
+    background-image: url(/imgs/footer_bg1.jpg);
+ }
+ 
+ #last img
+ {
+    margin: 3.1rem 0 0 20.8rem;
+ }
+
+ 
+ .gallery .content 
+ {
+   
+     /* flex-flow: column; */
+     /* justify-content:space-around;
+     align-items: center; */
+     margin: 3rem -5rem;
+     /* width: 50%; */
+    height: 80%;
+    width: 70%;
+     
+     
+
+ }
+
+
+
+
+
+ }
+
+
+
+
+
+@media(max-width:908px) {
+
+    html{
+        font-size: 75%;
+    }
+
+
+c
+
+#navcart li
+{
+    list-style: none;
+    padding: 0 1rem;
+    position: relative;
+
+}
+
+#header .logo
+{
+   margin-left: 5rem;
+   margin-right: 5.5rem;
+   font-size: 3rem;
+   font-weight: 600;
+   text-decoration: none;
+   color: black;
+   transition: .3s ease;
+ 
+  
+
+}
+
+#navbar li a
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(85, 80, 80);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    transition: .3s ease;
+
+
+}
+
+#navcart li a
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(85, 80, 80);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    transition: .3s ease;
+   
+}
+
+#poster
+{
+ display: flex;
+ text-align: center;
+ flex-flow: column;
+ line-height: 26.8rem;
+ margin-top:3.1rem; 
+margin-left: .9rem; 
+overflow: hidden;
+justify-content:space-between;
+align-items: center;
+
+ 
+}
+
+#nailposter
+{
+ height: 26.8rem;
+ width: 75.4rem;
+ background-image: url(/imgs/nail.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ position: relative;
+
+ 
+}
+
+#gift
+{
+ height: 26.8rem;
+ width: 75.4rem;
+ background-image: url(/imgs/gift.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ margin-top: 3rem;
+}
+
+
+#gift p
+{
+
+   color: rgb(18, 17, 17);
+   font-size: 1rem;
+   margin-top: -22.2rem;
+   padding-right: 39.6rem;
+
+
+}
+
+#CATEGORIES
+{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+   margin-top: 4rem; 
+}
+
+#CATEGORIES p
+{
+    font-size: 1.2rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 400;
+    color: #4d4747;
+    margin: 1.8rem;
+    padding-bottom: 1.2rem;
+    margin-top: 2rem;
+}
+
+#CATEGORIES h3
+{
+    font-size: 2.2rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 600;
+    color: #121111;
+    margin-top: -1.8rem;
+}
+
+#CATEGORIES h6
+{
+    font-size: 1.8rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 300;
+    color: #6e6363;
+
+
+
+
+}
+#container
+{
+    width: 72.5rem;
+    margin: auto;
+    padding: 1.2rem 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+ .service
+ {
+    /* flex-basis: 22; */
+    margin: .6rem 1rem;
+    box-shadow: 0rem 0rem 1rem .06rem rgb(191, 192, 195);
+    padding: .3rem 0;
+   
+    border-radius: 1.5rem;
+   
+ }
+  
+
+ #manicure #container .service h3
+ {
+    padding: .3rem .5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    color: rgb(57, 116, 116);
+ }
+
+
+
+
+
+
+
+ #manicure #container .service p
+ {
+font-size: .9rem;
+font-weight: 100;
+justify-content: space-around;
+font-family: sans-serif;
+color: #8c8080;
+
+padding:1rem 1.5rem;
+
+
+
+ }
+
+
+ #supercolor div #closeeye{
+    width: 85%;
+    height: 90%;
+    margin-left: 5rem;
+    margin-top: 4rem;
+ }
+
+ #clean
+{
+    display: flex;
+    margin-top: 11.2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#clean #sad 
+{    
+    height: 25rem;
+    width: 17.8rem;
+    /* background-color: aqua; */
+}
+
+#clean #sad img
+{
+    height: 20rem;
+    width: 17.8rem;
+    padding-right: 3rem;
+}
+
+#clean #brownhair
+{
+    padding-top: 6.2rem;
+    padding-left: 3rem;
+}
+
+#clean #text
+{
+    width: 38.8rem;
+    height: 29.1rem;
+    justify-content: space-around;
+}
+
+#clean #text h2
+{
+    padding-top: 1.2rem;
+}
+
+#clean #text p{
+    margin-top: 3.7rem;
+    font-size: .8rem;
+    justify-content: space-around;
+    color: #8c8080;
+    font-weight: 400;
+padding: 0rem 3rem;}
+    
+    #clean #text a
+    {
+    
+  
+   
+    background-color: rgb(64, 188, 188);
+    font-size: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    border-radius: .5rem;
+   
+
+
+   
+    }
+
+    #clean #text a
+    {
+        height: 2.5rem;
+        width: 3.7rem;
+        background-color: brown;
+        padding: .3rem;
+        margin: 1.2rem; 
+     
+   
+    }
+
+    #clean #text button
+    {
+        background-color: #2183a2;
+        color: white;
+        outline: none;
+        border: none;
+        padding: .3rem;
+        width: 12.5rem;
+        height: 3.1rem;
+        margin-top: 3.1rem;
+    }
+
+}
+
+
+@media(max-width:608px) {
+
+    html{
+        font-size: 45%;
+    }
+
+
+  
+#header .logo
+{
+   /* margin-left: 5rem; */
+   /* margin-right: 5.5rem; */
+   font-size: 3.5rem;
+   font-weight: 600;
+   text-decoration: none;
+   color: black;
+   transition: .3s ease;
+ 
+  
+
+}
+
+
+#navbar li a
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(85, 80, 80);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    transition: .3s ease;
+   
+     
+
+}
+
+#navcart li a
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(85, 80, 80);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    transition: .3s ease;
+   
+}
+
+#poster
+{
+ display: flex;
+ flex-flow: column;
+ text-align: center;
+ line-height: 26.8rem;
+ /* margin-top:3.1rem; 
+margin-left: .9rem;  */
+
+justify-content: space-between;
+align-items: center;
+
+ 
+}
+
+#nailposter
+{
+ height: 30.8rem;
+ width: 60.4rem;
+ background-image:linear-gradient(rgba(235, 52, 27, 1),rgba(23, 29, 217, 1));
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ /* position: relative; */
+
+ 
+}
+
+#gift
+{
+ height: 30.8rem;
+ width: 60.4rem;
+ background-image: url(/imgs/gift.jpg);
+ background-repeat: no-repeat;
+ filter: brightness(0.8);
+ margin-top: 2rem;
+ 
+}
+
+#nailposter h1 
+{
+
+   color: aliceblue;
+   font-size:7rem ;
+   padding-top: 8.1rem;
+   padding-right: 37.5rem;
+   margin: 5rem 0 0 0rem;
+
+
+}
+
+#nailposter img 
+{
+    height: 100%;
+    width: 100%;
+}
+
+#nailposter p
+{
+
+   color: rgb(255, 255, 255);
+   font-size: 2rem;
+   margin-top: -9.6rem;
+   padding-right: 30.6rem;
+
+
+}
+
+#poster #gift h3
+{
+    font-size:2.5rem;
+    font-family:  'Jost', sans-serif;
+    font-weight: 600;
+    padding-right: 10.2rem;
+    margin-top: -3.1rem;
+}
+
+#gift p
+{
+
+   color: rgb(18, 17, 17);
+   font-size: 2rem;
+   margin-top: -22.2rem;
+   padding-right: 43.6rem;
+   margin-left: 2rem;
+
+
+}
+
+#CATEGORIES
+{
+    margin-top: 4rem;
+}
+
+#CATEGORIES p
+{
+    font-size: 1.5rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 400;
+    color: #4d4747;
+    margin: 1.8rem;
+    padding-bottom: 1.2rem;
+}
+
+#CATEGORIES h3
+{
+    font-size: 2.5rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 600;
+    color: #121111;
+    margin-top: -2.8rem;
+}
+
+#CATEGORIES h6
+{
+    font-size: 1.8rem;
+    font-family: 'Jost', sans-serif ;
+    font-weight: 300;
+    color: #4d4747;
+    /* margin-top: px; */
+}
+
+#container
+{
+    display: flex;
+    flex-flow: column;
+    padding: 0 0;
+    width: 45.5rem;
+    margin-top: 5rem;
+   
+}
+
+.service
+{
+   /* flex-basis: 22; */
+   margin: 2rem 1rem;
+   box-shadow: -3rem 3rem 1rem .04rem rgb(200, 203, 210);
+   padding: .6rem 0;
+  background-color: #ece7e7;
+  
+   border-radius: 1.5rem;
+  
+}
+
+.service img{
+    height: 50%;
+    width: 75%;
+
+}
+ 
+
+#manicure #container .service h3
+{
+   padding: .6rem 0;
+   font-size: 3rem;
+   font-weight: 550;
+   font-family: 'Jost', sans-serif;
+   color: rgb(57, 116, 116);
+}
+
+#manicure #container .service p
+{
+font-size: 1.6rem;
+font-weight: 100;
+justify-content: space-around;
+font-family: sans-serif;
+color: #8c8080;
+
+padding: .6rem .6rem;
+
+
+
+}
+
+#supercolor 
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+#supercolor div #closeeye{
+    height: 60%;
+    width: 80%;
+    margin-left: 8rem;
+    
+   
+  
+}
+
+
+#supercolor #head
+{
+    display: flex;
+    width: 35.6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#supercolor #head .purple
+{
+    display: flex;
+    flex-basis: 23;
+    width: 35.6rem;
+    height: 10.8rem;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+#supercolor #head .purple img
+{
+    height: 10.2rem;
+    width: 12.2rem;
+}
+
+#supercolor #head .purple p
+{
+    padding-top: 3.7rem;
+    font-size: 1.5rem;
+   
+}
+
+#supercolor #head .purple img:hover
+{
+    translate: 0 -0.6rem;
+    transition: .5s ease;
+}
+
+#supercolor #head #new
+{
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #222;
+    font-family:'Jost', sans-serif ;
+}
+
+#supercolor #head #sn 
+{
+    text-align: center;
+    height: 1.8rem;
+    width: 8.1rem;
+    background-color: rgb(232, 232, 232);
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding-top: .12rem;
+    border-radius: .6rem;
+    text-decoration: none;
+   color: white;
+    font-family: 'Jost', sans-serif;
+    margin-top: 4rem;
+    scale: 1.3;
+}
+#supercolor #head #sn a
+{
+    text-decoration: none;
+}
+
+#clean
+{
+    display: flex;
+    margin-top: 11.2rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#clean #sad 
+{    
+    height: 25rem;
+    width: 17.8rem;
+    /* background-color: aqua; */
+}
+
+#clean #sad img
+{
+    height: 55rem;
+    width: 50rem;
+    margin-top: 12rem;
+    align-items: center;
+   margin-left: -15rem;
+}
+
+#clean #brownhair
+{
+    padding-top: 6.2rem;
+    margin-top: -5rem;
+}
+
+#clean #brownhair img
+{
+    height: 60rem;
+    width: 70rem;
+}
+#clean #text
+{
+    width: 38.8rem;
+    height: 29.1rem;
+    justify-content: space-around;
+}
+
+#clean #text h2
+{
+    padding-top: 1.2rem;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+#clean #text p{
+    margin-top: 3.7rem;
+    font-size: 1.6rem;
+    justify-content: space-around;
+    color: #8c8080;
+    font-weight: 400;}
+    
+    #clean #text a
+    {
+    
+  
+   
+    background-color: rgb(64, 188, 188);
+    font-size: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    border-radius: .5rem;
+   
+
+
+   
+    }
+
+    #clean #text a
+    {
+        height: 2.5rem;
+        width: 3.7rem;
+        background-color: brown;
+        padding: .3rem;
+        margin: 1.2rem; 
+     
+   
+    }
+
+    #clean #text button
+    {
+        background-color: #2183a2;
+        color: white;
+        outline: none;
+        border: none;
+        padding: .3rem;
+        width: 12.5rem;
+        height: 3.1rem;
+        margin-top: 3.1rem;
+        
+    }
+
+    #bestsellers
+    {
+        margin-top: 45rem;
+    }
+   
+    #brand img{
+        justify-content: space-between;
+        height: 5rem;
+        width: 8rem;
+    
+    }
+    
+    #last img
+    {
+        height: 50%;
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+ 
+  
+
+
+
+
+   
+
+
+}

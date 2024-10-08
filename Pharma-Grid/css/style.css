@@ -1,0 +1,1578 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#navbar
+{
+    height: 3.1rem;
+    width: 100%;
+    background-color:#1f1f1f;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    /* grid-gap: 150px; */
+}
+
+#navbar #contact 
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+      grid-gap:  1.2rem;
+    
+ 
+}
+
+#navbar #contact li a
+{
+    
+    text-decoration: none;
+    color: aliceblue;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+}
+#navbar #contact li a i{
+    color: rgb(233, 71, 56);
+    padding: 0 .6rem;
+}
+
+
+#navbar #menu 
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: .9rem;
+ 
+}
+
+
+#navbar #menu a
+{
+    
+    text-decoration: none;
+    color: #a0a0a0;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+#navbar #menu a i
+{
+    padding: 0 .31rem;
+}
+
+#navbar #menu a:hover{
+    color: rgb(228, 46, 25);
+    box-shadow: .18rem .31rem .6rem rgb(232, 83, 46);
+    padding: .31rem;
+    transition: .5s ease;
+    border-radius: .3rem;
+    font-size: .93rem;
+}
+
+
+#navbar #usd 
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
+ 
+}
+
+
+#navbar #usd a
+{
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#navbar #usd a i
+{
+    padding: 0 .3rem;
+}
+
+/* <!-- header end --> */
+
+/* 
+<!-- Razzi input start */
+
+#searchbar
+{
+  height: 5rem;
+  width: 100%;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-items: center;
+}
+
+#Razzi
+{
+    font-size: 2rem;
+    font-weight: 530;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#input span
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1f1f1f;
+    padding: 0 1.8rem;
+}
+
+#input span fa-light fa-magnifying-glass
+{
+    text-decoration: none;
+}
+
+#input input
+{
+width: 31.2rem;
+color: #181616;
+border-radius: 1.2rem;
+height: 2.3rem;
+border: none;
+outline: none;
+place-items: center;
+background-color: hsl(0, 5%, 78%);
+
+}
+
+#profile
+{
+    grid-template-columns: repeat(3,1fr);
+   margin-right: 6.2rem;
+   grid-gap: 7.5rem;
+ 
+}
+
+#profile a
+{
+    padding-right:1.2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #1f1f1f;
+    
+}
+
+
+/* <!-- Razzi input end */ 
+
+
+/* <!-- slider2 start --> */
+
+#medicine
+{
+    width: 100%;
+    height: 8.1rem ;
+    background-color: #FF6F61;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    place-items: center;
+    color: aliceblue;
+    overflow: hidden;
+   
+   
+    
+    
+    
+}
+
+.slider1 
+{
+   border: .03rem solid rgb(248, 248, 248);
+   height: 100%;
+   width: 100%;
+   grid-template-columns: repeat(9,1fr);
+
+}
+
+ .slider1:hover{
+    background-color: #e38279;
+    transition: .5s ease;
+}
+
+ .slider1 h6{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1.2rem;
+
+}
+
+.slider1 span i
+{
+display: grid;
+place-items: center;
+padding-top: 1.2rem;
+}
+
+
+
+.slider1 a
+
+
+
+
+#med #medicine .slider1:hover
+{
+    background-color: #f08f86;
+    transition: .3s ease;
+}
+
+#slider2
+{
+    max-height: 28.1rem;
+    max-width: 100%;
+    background-color: rgb(247, 247, 247);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    text-align: center;
+    grid-gap:   .6rem;
+    
+  
+}
+
+
+
+#slider2 div img
+{
+    height: 28.1rem;
+    width: 48.1rem;
+    margin-bottom: 1.8rem;
+    grid-gap: .6rem;
+}
+
+#slider2 div h3
+{
+    margin-top: -18.7rem;
+    margin-left: -25rem;
+    font-size: 2.5rem;
+    letter-spacing: .12rem;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+    /* justify-content: center; */
+    font-weight: 500;
+   
+
+}
+
+#slider2 div button
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 2.1rem 0 0 -25rem;
+    color: #ffffff;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    padding-top: 2.5rem;
+    background-color: #e38279;
+    padding: .6rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+
+/* <!-- slider2 end --> */
+
+
+/* <!-- section fast delivery start --> */
+
+#fast
+{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 9.3rem;
+    margin-top: 8.1rem;
+    
+
+}
+
+#fast .delivery div h5
+{
+   padding: 0 2.4rem ;
+   margin-left: 1.2rem;
+   margin-bottom: 2.4rem;
+   margin-top: -1.8rem;
+   font-size: 1rem;
+   color: #111111;
+   font-weight: 500;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+#fast .delivery div .fa-cube
+{
+    color: #e38279;
+    scale: 1.3;
+}
+
+#fast .delivery div li
+{
+    list-style: none;
+    padding: 0 .6rem;
+    color: #7a7a7a;
+    margin: .6rem 0;
+ text-align: start;
+}
+
+#fast .delivery div span
+{
+    color: #1f1f1f;
+    padding: .6rem .6rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: .8rem;
+    letter-spacing: .06rem;
+}
+
+#fast .delivery button
+{
+    background-color: purple;
+    color: aliceblue;
+    padding: .6rem;
+    font-size: .75rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: .6rem;
+    outline: none;
+    border: none;
+    margin-top: 1.2rem;
+    margin-left: 3.1rem;
+
+}
+
+/* <!-- section fast delivery end--> */
+
+
+/* <!-- top month sellers start --> */
+
+#top
+{
+    display: grid;
+    place-items: center;
+}
+
+#top div h2
+{
+    margin-top: 6.2rem;
+    font-size: 2.2rem;
+    color: #181616;
+    word-spacing: 1.5rem;
+    text-align: center;
+}
+
+#top ul
+{
+    margin-top: 1.5rem;
+  
+   text-align: center;
+ 
+}
+
+
+#top ul a
+{
+    list-style: none;
+    text-decoration: none;
+    color: #181716;
+    font-size: 1rem;
+    margin-right: 1.2rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+
+}
+
+#top ul a:hover
+{
+    color: #FF6F61;
+    transition: .3s ease;
+}
+
+/* <!-- top month sellers end --> */
+
+/* <!-- product-list-start --> */
+
+#productlist
+{
+    height: 69.6rem;
+    width: 64.3rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#productlist ul #item1 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+#productlist ul #item1 p
+{
+    margin: .6rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #111111;
+    padding-bottom: 1rem;
+}
+
+ .rate 
+{
+    /* margin: 10px 0; */
+  
+}
+.rate span
+{
+   border: 1px solid grey;
+    padding: .5rem;
+    background-color: #d8dddf;
+   
+    height: 1.8rem;
+    width: 3.4rem;
+    letter-spacing: .18rem;
+    border-radius: .31rem;
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+
+#productlist ul #item1 #rating li
+{
+    list-style: none;
+   
+}
+
+
+#productlist ul #item1 #rating li i.fa-star
+{
+    color: gold;
+}
+#productlist ul #item1 #rating
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 1.2rem 0;
+    font-size: 1.1rem;
+    grid-row-gap: 1.8rem;
+}
+
+#discover span
+{
+    font-size: 1.1rem;
+    color: #111111;
+    font-weight: 500;
+    
+}
+
+
+/* <!-- product-list-end --> */
+
+
+/* <!-- 
+     section skin care start --> */
+
+     #skincare
+     {
+        display: grid;
+        grid-template-columns:50% 50%;
+       
+        place-items: center;
+        margin-top: 5rem;
+    
+     }
+
+     #skincare .med
+     {
+        height: 25.3rem;
+        width: 33.5rem;
+
+     }
+
+     #skincare .med p
+     {
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-top: 8.1rem;
+        margin-left: -7.5rem
+     }
+      
+
+     #skincare .med #timer
+    {
+        margin-left: -7.1rem;
+        margin-top: 1rem;
+    }
+     
+
+    #skincare .med #timer span
+    {
+        padding-right: 1.8rem;
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: #FF6F61;
+        
+    }
+
+     #skincare .med img{
+        margin-left: 9.3rem;
+     }
+
+     #skincare .med button{ margin-top: 2.5rem;
+        margin-left: -6rem;
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: #1a1616;
+        background-color: aquamarine;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        box-shadow: .31rem .31rem .31rem rgb(59, 59, 77);
+        border-radius: 1rem;
+       
+
+     }
+
+     #skincare .med button .fa-arrow-right
+     {
+        margin-left: .31rem;
+     }
+
+     #skincare .med button .fa-arrow-right:hover
+     {
+        translate: .31rem 0;
+        transition: .5s ease;
+     }
+
+     /* <!-- 
+     section skin care end -->
+
+
+
+     <!-- section doctor start --> */
+
+
+     #doctor
+     {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 11.2rem;
+        place-items: center;
+     }
+
+     #doctor #d1 img:hover
+      {
+       scale: 1.05;
+       transition: .5s ease;
+       filter: brightness(.8);
+        
+     }
+
+     #doctor #d2 img:hover
+     {
+      scale: 1.05;
+      transition: .5s ease;
+      filter: brightness(.8);
+       
+    }
+
+
+     #doctor #d1 img
+     {
+        position: relative;
+        margin: 0 -18.7rem 0 0 ;
+     }
+
+     #doctor #d1 span
+     {
+       padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+       
+      
+    }
+
+    #doctor #btn
+    { 
+        margin: 4.3rem 0 0 1.8rem ;
+        padding: 1rem;
+        color: #d8dddf;
+        background-color: #111111;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    #doctor #d2 span{
+        padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+
+    }
+
+     #doctor #d2 img
+     {
+        margin: 0 18.7rem  0 0;
+     }
+
+     /* <!-- section doctor end --> */ 
+
+
+
+
+     /* <!-- footer start --> */
+     footer
+     {
+        background-image: url(/img/footer_bg1.jpg);
+        width: 100%;
+        height:21.2rem;
+        margin-top: 5rem;
+     }
+
+     #subscribe
+     {
+        display: grid;
+        
+        margin-top: 9.3rem;
+        text-align: center;
+     }
+
+     #subscribe h2
+     {
+      font-size: 2.5rem;
+      font-weight: 600;
+     }
+
+     #subscribe p
+     {
+        margin-top: 1.2rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #7a7a7a;
+     }
+
+    footer #support 
+     {  
+      display: grid;
+      grid-template-columns: 15.6rem 15.6rem 15.6rem 15.6rem;
+      justify-content: center;
+     text-align: center;
+     padding: 6.8rem 0 0 0 ;
+     }
+
+     footer #support .company h6
+     {
+        color: #e3e7e7;
+        font-size: .9rem;
+        font-weight: 600;
+        text-align: start;
+     }
+
+     footer #support .company li
+     {
+        list-style: none;
+        color: #bcc4c4;
+        padding: .12rem .31rem;
+        font-size: .75rem;
+        text-align: start;
+     }
+
+     footer #support .company .end
+     {
+        margin-top: .6rem;
+     }
+
+     /* <!-- footer end --> */
+
+
+     #last
+     {
+        height: 6.2rem;
+        width: 100%;
+        background-image: url(/img/footer_bg1.jpg);
+     }
+     
+     #last img
+     {
+        margin: 3.1rem 0 0 96.8rem;
+     }
+
+    
+
+
+     @media(max-width:1628px){
+
+
+
+        /* <!-- 
+     section skin care start --> */
+
+     #skincare
+     {
+        display: grid;
+        grid-template-columns:50% 50%;
+       
+        place-items: center;
+        margin-top: 5rem;
+    
+     }
+
+     #skincare .med
+     {
+        height: 25.3rem;
+        width: 33.5rem;
+        margin-left: 15rem;
+
+     }
+
+     #skincare .med p
+     {
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-top: 8.1rem;
+        margin-left: 1.5rem
+     }
+      
+
+     #skincare .med #timer
+    {
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+     
+
+    #skincare .med #timer span
+    {
+        padding-right: 1.8rem;
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: #FF6F61;
+        
+    }
+
+     #skincare .med img{
+        margin-left: -5.3rem;
+        width: 50rem;
+     }
+
+     #skincare .med button{ margin-top: 2.5rem;
+        margin-left: 1.5rem;
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: #1a1616;
+        background-color: aquamarine;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        box-shadow: .31rem .31rem .31rem rgb(59, 59, 77);
+        border-radius: 1rem;
+       
+
+     }
+
+     #skincare .med button .fa-arrow-right
+     {
+        margin-left: .31rem;
+     }
+
+     #skincare .med button .fa-arrow-right:hover
+     {
+        translate: .31rem 0;
+        transition: .5s ease;
+     }
+
+
+
+
+
+     #doctor
+     {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 15.2rem;
+        place-items: center;
+     }
+     
+
+     #doctor #d1
+     {
+        margin-left: -10rem;
+     }
+    
+
+     
+     #doctor #d2
+     {
+        margin-left: 20rem;
+     }
+    
+
+
+     #doctor #d1 img
+     {
+        position: relative;
+        margin: 0 -10.7rem 0 0 ;
+        width: 45rem;
+     }
+
+     #doctor #d1 span
+     {
+       padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+       
+      
+    }
+
+    #doctor #d1 #btn
+    {
+        margin-left: 2rem;
+    }
+
+    #doctor #btn
+    { 
+        margin: 4.3rem 0 0 1.8rem ;
+        padding: 1rem;
+        color: #d8dddf;
+        background-color: #111111;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    #doctor #d2 span{
+        padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+
+    }
+
+     #doctor #d2 img
+     {
+        margin: 0 18.7rem  0 0;
+        width: 45rem;
+     }
+
+
+   
+
+    }
+
+
+
+
+
+    @media(max-width:1400px){
+
+        html{
+            font-size: 70%;
+        }
+
+
+        
+     #doctor #d1 img
+     {
+        position: relative;
+       margin-left: -10rem;
+     }
+
+     #doctor #d1 span
+     {
+       padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 -8rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+       
+      
+    }
+
+
+    #doctor #d1 button
+    {
+     margin-left: -7rem;
+    }
+
+
+    #doctor #d2 button{
+
+     margin-right: -7rem;
+    }
+    #doctor #btn
+    { 
+        margin: 4.3rem 0 0 1.8rem ;
+        padding: 15px;
+        color: #d8dddf;
+        background-color: #111111;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    #doctor #d2 span{
+        padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+
+    }
+
+     #doctor #d2 img
+     {
+    margin-right: -5rem;
+     }
+
+
+
+
+    }
+
+
+    @media(max-width:1250px){
+
+        html{
+            font-size: 60%;
+        }
+       
+
+        .slider1 
+{
+   border: .03rem solid rgb(248, 248, 248);
+   height: 100%;
+   width: 100%;
+   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+
+}
+
+
+
+#slider2 
+{
+    height: 28.1rem;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,));
+    place-items: center;
+    text-align: center;
+    grid-gap:   .6rem;
+    
+  
+}
+
+#slider2 div img
+{
+    height: 28.1rem;
+    width: 48.1rem;
+    margin-bottom: 1.8rem;
+    grid-gap: .6rem;
+}
+
+#slider2 div h3
+{
+    margin-top: -18.7rem;
+    margin-left: -25rem;
+    font-size: 2.5rem;
+    letter-spacing: .12rem;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+    /* justify-content: center; */
+    font-weight: 500;
+   
+
+}
+
+#slider2 div button
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 2.1rem 0 0 -25rem;
+    color: #ffffff;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    padding-top: 2.5rem;
+    background-color: #e38279;
+    padding: .6rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+
+#skincare
+{
+   display: grid;
+   grid-template-columns:50% 50%;
+  
+   place-items: center;
+   margin-top: 5rem;
+
+}
+
+#skincare .med
+{
+   height: 25.3rem;
+   width: 33.5rem;
+   margin-left: 15rem;
+
+}
+
+#skincare .med p
+{
+   font-size: 2.8rem;
+   font-weight: 600;
+   margin-top: 8.1rem;
+   margin-left: 1.5rem
+}
+ 
+
+#skincare .med #timer
+{
+   margin-left: 1.5rem;
+   margin-top: 1rem;
+}
+
+
+#skincare .med #timer span
+{
+   padding-right: 1.8rem;
+   font-size: 2.3rem;
+   font-weight: 600;
+   color: #FF6F61;
+   
+}
+
+#skincare .med img{
+   margin-left: -5.3rem;
+   width: 50rem;
+}
+
+#skincare .med button{ margin-top: 2.5rem;
+   margin-left: 1.5rem;
+   padding: 1rem;
+   font-size: 1.1rem;
+   color: #1a1616;
+   background-color: aquamarine;
+   outline: none;
+   border: none;
+   font-weight: 500;
+   box-shadow: .31rem .31rem .31rem rgb(59, 59, 77);
+   border-radius: 1rem;
+  
+
+}
+
+#skincare .med button .fa-arrow-right
+{
+   margin-left: .31rem;
+}
+
+#skincare .med button .fa-arrow-right:hover
+{
+   translate: .31rem 0;
+   transition: .5s ease;
+}
+
+
+
+
+
+#doctor
+{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   margin-top: 15.2rem;
+   place-items: center;
+}
+
+
+#doctor #d1
+{
+   margin-left: -10rem;
+}
+
+
+
+#doctor #d2
+{
+   margin-left: 20rem;
+}
+
+
+
+#doctor #d1 img
+{
+   position: relative;
+   margin: 0 -10.7rem 0 0 ;
+   width: 45rem;
+}
+
+#doctor #d1 span
+{
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #d8dddf;
+  background-color: #FF6F61;
+  outline: none;
+  border: none;
+  border-radius:15.6rem;
+  margin: 1rem 0 0 1.2rem;
+  position: absolute;
+  z-index: 1;
+  font-weight: 600;
+  
+ 
+}
+
+#doctor #d1 #btn
+{
+   margin-left: 2rem;
+}
+
+#doctor #btn
+{ 
+   margin: 4.3rem 0 0 1.8rem ;
+   padding: 1rem;
+   color: #d8dddf;
+   background-color: #111111;
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+
+#doctor #d2 span{
+   padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #d8dddf;
+  background-color: #FF6F61;
+  outline: none;
+  border: none;
+  border-radius:15.6rem;
+  margin: 1rem 0 0 1.2rem;
+  position: absolute;
+  z-index: 1;
+  font-weight: 600;
+
+}
+
+#doctor #d2 img
+{
+   margin: 0 18.7rem  0 0;
+   width: 45rem;
+}
+
+
+
+    }
+
+
+
+
+
+
+    @media(max-width:900px){
+
+        html{
+            font-size: 50%;
+        }
+         
+
+        #skincare
+     {
+        display: grid;
+        grid-template-columns:50% 50%;
+       
+        place-items: center;
+        margin-top: 5rem;
+    
+     }
+
+     #skincare .med
+     {
+        height: 25.3rem;
+        width: 33.5rem;
+        margin-left: 15rem;
+
+     }
+
+     #skincare .med p
+     {
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-top: 8.1rem;
+        margin-left: 1.5rem
+     }
+      
+
+     #skincare .med #timer
+    {
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+     
+
+    #skincare .med #timer span
+    {
+        padding-right: 1.8rem;
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: #FF6F61;
+        
+    }
+
+     #skincare .med img{
+        margin-left: -5.3rem;
+        width: 50rem;
+     }
+
+     #skincare .med button{ margin-top: 2.5rem;
+        margin-left: 1.5rem;
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: #1a1616;
+        background-color: aquamarine;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        box-shadow: .31rem .31rem .31rem rgb(59, 59, 77);
+        border-radius: 1rem;
+       
+
+     }
+
+     #skincare .med button .fa-arrow-right
+     {
+        margin-left: .31rem;
+     }
+
+     #skincare .med button .fa-arrow-right:hover
+     {
+        translate: .31rem 0;
+        transition: .5s ease;
+     }
+
+
+
+
+
+     #doctor
+     {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 15.2rem;
+        place-items: center;
+     }
+     
+
+     #doctor #d1
+     {
+        margin-left: -10rem;
+     }
+    
+
+     
+     #doctor #d2
+     {
+        margin-left: 20rem;
+     }
+    
+
+
+     #doctor #d1 img
+     {
+        position: relative;
+        margin: 0 -10.7rem 0 0 ;
+        width: 45rem;
+     }
+
+     #doctor #d1 span
+     {
+       padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+       
+      
+    }
+
+    #doctor #d1 #btn
+    {
+        margin-left: 2rem;
+    }
+
+    #doctor #btn
+    { 
+        margin: 4.3rem 0 0 1.8rem ;
+        padding: 1rem;
+        color: #d8dddf;
+        background-color: #111111;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    #doctor #d2 span{
+        padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+
+    }
+
+     #doctor #d2 img
+     {
+        margin: 0 18.7rem  0 0;
+        width: 45rem;
+     }
+
+
+
+
+
+    }
+
+
+
+
+    @media(max-width:650px){
+
+        html{
+            font-size: 50%;
+        }
+         
+
+        #skincare
+     {
+        display: grid;
+        grid-template-columns:50% 50%;
+       
+        place-items: center;
+        margin-top: 5rem;
+    
+     }
+
+     #skincare .med
+     {
+        height: 25.3rem;
+        width: 33.5rem;
+        margin-left: 15rem;
+
+     }
+
+     #skincare .med p
+     {
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin-top: 8.1rem;
+        margin-left: 1.5rem
+     }
+      
+
+     #skincare .med #timer
+    {
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+     
+
+    #skincare .med #timer span
+    {
+        padding-right: 1.8rem;
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: #FF6F61;
+        
+    }
+
+     #skincare .med img{
+        margin-left: -5.3rem;
+        width: 40rem;
+     }
+
+     #skincare .med button{ margin-top: 2.5rem;
+        margin-left: 1.5rem;
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: #1a1616;
+        background-color: aquamarine;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        box-shadow: .31rem .31rem .31rem rgb(59, 59, 77);
+        border-radius: 1rem;
+       
+
+     }
+
+     #skincare .med button .fa-arrow-right
+     {
+        margin-left: .31rem;
+     }
+
+     #skincare .med button .fa-arrow-right:hover
+     {
+        translate: .31rem 0;
+        transition: .5s ease;
+     }
+
+
+
+
+
+     #doctor
+     {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 11.2rem;
+        place-items: center;
+     }
+     
+
+     #doctor #d1
+     {
+        margin-left: -10rem;
+     }
+    
+
+     
+     #doctor #d2
+     {
+        margin-left: 20rem;
+     }
+    
+
+
+     #doctor #d1 img
+     {
+        position: relative;
+        margin: 0 -10.7rem 0 0 ;
+        width: 35rem;
+     }
+
+     #doctor #d1 span
+     {
+       padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem  0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+       
+      
+    }
+
+    #doctor #d1 #btn
+    {
+        margin-left: 2rem;
+    }
+
+    #doctor #btn
+    { 
+        margin: 4.3rem 0 0 1.8rem ;
+        padding: 1rem;
+        color: #d8dddf;
+        background-color: #111111;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    #doctor #d2 span{
+        padding: 1.2rem;
+       font-size: 1.5rem;
+       color: #d8dddf;
+       background-color: #FF6F61;
+       outline: none;
+       border: none;
+       border-radius:15.6rem;
+       margin: 1rem 0 0 1.2rem;
+       position: absolute;
+       z-index: 1;
+       font-weight: 600;
+
+    }
+
+     #doctor #d2 img
+     {
+        margin: 0 18.7rem  0 0;
+        width: 35rem;
+     }
+
+
+
+
+
+    }
+
+
+

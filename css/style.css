@@ -418,13 +418,25 @@ margin: 15px 0;
 /* ========SKILL SECTION START========== */
 
 #skill{
-    padding: 70px 30px;
+    padding: 70px 30px 0 30px;
 }
 #skill .skill-row{
-    margin-top: 35px;
+    margin-top: 34px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 20px;
+}
+
+#skill .skill-row .skill-box{
+    display: inline-block;
+    margin: 10px 10px 5px;
+}
+#skill .skill-row .skill-box .skill-info h2:hover{
+    transition: .3s ease-in-out;
+    scale: 1.2;
+    background-color: var(--themeColor);
+    color: #f7f7f7;
+    
 }
 #skill .skill-row .skill-box .skill-info{
     display: flex;
@@ -434,9 +446,12 @@ margin: 15px 0;
 }
 #skill .skill-row .skill-box .skill-info h2{
     color: var(--sideBGColor);
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 17px;
     font-style: italic;
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-color: rgb(189, 184, 184);
 }
 #skill .skill-row .skill-box .skill-outter-line{
 width: 100%;
@@ -490,8 +505,8 @@ border-radius: 20px;
 }
 #resume .resume-row .resume-cols h2{
     color: var(--sideBGColor);
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 20px;
     margin: 15px 0;
 }
 #resume .resume-row .resume-cols .my-info{
@@ -499,6 +514,9 @@ border-radius: 20px;
     margin: 20px 0;
     border-left: 2px solid var(--themeColor);
     position: relative;
+}
+#resume .resume-row .resume-cols .my-info h3{
+    font-size: 20px;
 }
 #resume .resume-row .resume-cols .my-info::before{
     content: '';
@@ -512,6 +530,7 @@ border-radius: 20px;
     background-color: white;
 
 }
+
 #resume .resume-row .resume-cols h3{
     color: var(--sideBGColor);
     font-size: 17px;
@@ -537,6 +556,10 @@ border-radius: 20px;
     padding: 0 20px 0 20px;
     border-left: 2px solid var(--themeColor);
     position: relative;
+}
+#resume .resume-row .resume-cols .my-edu h1{
+    font-weight: 500;
+    font-size: 20px;
 }
 #resume .resume-row .resume-cols .my-edu::before{
     content: '';
@@ -565,6 +588,7 @@ border-radius: 20px;
    font-size: 15px;
    font-weight: 500;
    padding-bottom: 15px; 
+
 }
 #resume .resume-row .resume-cols .my-edu span + p +p{
     color: var(--textColor);
@@ -596,6 +620,10 @@ border-radius: 20px;
     font-style: italic;
 
 }
+#resume .resume-row .resume-cols .pro-exp h3{
+    font-weight: 500;
+    font-family: 20px;
+}
 #resume .resume-row .resume-cols .pro-exp ul li{
  margin: 10px 0;
  margin-left: 20px;
@@ -623,36 +651,51 @@ border-radius: 20px;
 
 
 /* ======PORTFOLIO SECTION START========= */
-#portfolio{
-    padding: 70px 30px;
 
-}
 .port-row{
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 35px;
-
+    height: auto;
 
 }
 #portfolio{
-    background-color: #212121;
-    color: white;
+    padding: 70px 30px;
+  display: grid;
+  place-items: center;
+  column-gap: 50px;
+}
+#portfolio .port-row{
+    height: auto;
+    width: 60vw;
+    
 }
 #portfolio .port-row .port-item{
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
     
 }
 #portfolio .port-row .port-item{
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 50vh;
 }
+#portfolio .port-row .port-item .port-img img :nth-child(1){
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    aspect-ratio: 1 / 2; 
+}
+
 #portfolio .port-row .port-item .port-img img{
     width: 100%;
+    height: 100%;
     border-radius: 10px;
+    aspect-ratio: 1 / 2; 
+ 
 }
 #portfolio .port-row .port-item .port-info{
     position: absolute;
@@ -675,7 +718,7 @@ border-radius: 20px;
 
 }
 .sub-heading{
-    color: white;
+    color: var(--themeColor);
 }
 #portfolio .port-row .port-item:hover .port-info{
     transform: scale(1);
@@ -776,7 +819,7 @@ background-color: var(--bgcolor);
 }
 #service .service-row .service-box .service-info h4 + p{
 color: var(--textColor);
-font-size: 14px;
+font-size: 15px;
 font-weight: 500;
 }
 /* MOBILE VIEW */
